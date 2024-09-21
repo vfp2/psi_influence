@@ -133,7 +133,7 @@ In order to avoid having to enter the above variables everytime you restart the 
 2. Connect to MySQL\
     ```% mysql -u root```
 3. Create the database\
-    ```mysql> create database myDatabase;```\
+    ```mysql> create database psi_influence;```\
     ```mysql> \q```
 
    Device debugging instructions can be found in the device_debug subfolder.
@@ -142,13 +142,12 @@ In order to avoid having to enter the above variables everytime you restart the 
     ```$ export MYSQL_USER=root```\
     ```$ export MYSQL_PASSWORD=```\
     ```$ export MYSQL_HOST=localhost```\
-    ```$ export MYSQL_DB=myDatabase```
    
 4b. Optional, to make the above environment variables permanent in macOS (OS X), you can add them to your shell configuration file, such as ~/.bash_profile or ~/.bashrc. Otherwise, you have to re-enter these after each terminal restart.
 
 5. Goto folder and create database tables\
     ```$ cd quantum_influence/med100kx8```\
-    ```$ mysql -u root myDatabase < db_setup.sql```
+    ```$ mysql -u root psi_influence < db_setup.sql```
 
 
 ## Running
