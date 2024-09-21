@@ -14,3 +14,4 @@ libusb1
 PyOpenGL_accelerate
 playsound==1.2.2
 python-dotenv
+cryptography
