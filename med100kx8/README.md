@@ -91,12 +91,10 @@ Here's a brief description of the files:
 
 ## Pre-Setup Instructions
 
-1. Ensure that pip and Python 3.6 or later are installed
+1. Ensure that pip and Python 3.6 (I tested with pyenv & python 3.9.20) or later are installed
 1. Run the following:
    
-    ```pip install mysql pymysql pyftdi datetime scipy dbutils requests pytz libusb urllib3 pygame numpy pyopengl libusb1 PyOpenGL_accelerate pymysql```
-   
-    ```pip install playsound==1.2.2```
+    ```pip install -r requirements.txt```
    
 ## Windows Setup Instructions
 
@@ -142,6 +140,7 @@ In order to avoid having to enter the above variables everytime you restart the 
     ```$ export MYSQL_USER=root```\
     ```$ export MYSQL_PASSWORD=```\
     ```$ export MYSQL_HOST=localhost```\
+    ```$ export MYSQL_DB=psi_influence```
    
 4b. Optional, to make the above environment variables permanent in macOS (OS X), you can add them to your shell configuration file, such as ~/.bash_profile or ~/.bashrc. Otherwise, you have to re-enter these after each terminal restart.
 

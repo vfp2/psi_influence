@@ -1,0 +1,16 @@
+pymysql
+pyftdi
+datetime
+scipy
+dbutils
+requests
+pytz
+libusb
+urllib3
+pygame
+numpy
+pyopengl
+libusb1
+PyOpenGL_accelerate
+playsound==1.2.2
+python-dotenv
