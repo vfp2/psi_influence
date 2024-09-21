@@ -1,4 +1,4 @@
-use myDatabase;
+use psi_influence;
 
 DROP TABLE IF EXISTS supertrial_data;
 DROP TABLE IF EXISTS participant_data;
@@ -17,9 +17,9 @@ DROP TABLE IF EXISTS trial_data;
     export MYSQL_DB=value
 */
 
-CREATE DATABASE IF NOT EXISTS myDatabase;
+CREATE DATABASE IF NOT EXISTS psi_influence;
 
-USE myDatabase;
+USE psi_influence;
 
 CREATE TABLE IF NOT EXISTS supertrial_data (
     id INT AUTO_INCREMENT PRIMARY KEY,
